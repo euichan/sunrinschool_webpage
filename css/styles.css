@@ -1,3 +1,4 @@
+*{margin:0; padding: 0;}
 
 .topNavbar_bg {
     position: fixed;
@@ -18,4 +19,18 @@
     position: fixed;
     margin: 10px 20px; 
     height: 30px;
+}
+
+.topBarbg {
+    width: 100%;
+    height: 70px;
+    background-color: #252525;
+}
+
+.logo {
+    margin: 15px 20px;
+}
+
+.logotext {
+    margin-bottom: 25px;
 }
