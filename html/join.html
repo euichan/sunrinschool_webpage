@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+        <title>Sunrin internet high school</title>
+
+
+        <!-- Custom styles for this template -->
+        <link href="../css/styles.css" rel="stylesheet">
+        <link href="../css/join.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+<script src="../../assets/js/html5shiv.js"></script>
+<script src="../../assets/js/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form class="form-join" action="../php/join.php" method="post">
+                <h2 class="form-join-heading">회원가입</h2>
+                <input type="name" name="name" class="form-control" placeholder="이름(실명)" autofocus>
+
+                <div class="form-control">
+
+                    <select id = "head_phone_num" name="head_phone_num">
+                        <option>010</option>
+                        <option>02</option>
+                        <option>031</option>
+                        <option>032</option>
+                        <option>033</option>
+                        <option>041</option>
+                        <option>042</option>
+                        <option>043</option>
+                        <option>051</option>
+                        <option>052</option>
+                        <option>053</option>
+                        <option>054</option>
+                        <option>055</option>
+                        <option>061</option>
+                        <option>062</option>
+                        <option>063</option>
+                        <option>064</option>
+                    </select>
+                    <input type="text" id = "2nd_phone_num" name="second_phone_num">
+                    <input type="text" id = "last_phone_num" name="last_phone_num">
+                    
+
+                </div>
+
+                <input type="email" name="email" class="form-control" placeholder="이메일 ex) sunrin@intcool.com">
+                <input type="id" name="id" class="form-control" placeholder="아이디">
+                <input type="password" name="password" class="form-control" placeholder="패스워드">
+                <input type="password" name="password_ck" class="form-control" placeholder="패스워드 확인">
+                <select class="form-control" name="visitor-type">
+                    <option>&nbsp; SELECT</option>
+                    <option>&nbsp; 학생(만 15 이하)</option>
+                    <option>&nbsp; 재학생</option>
+                    <option>&nbsp; 졸업생</option>
+                    <option>&nbsp; 학부모</option>
+                    <option>&nbsp; 선생님</option>
+                </select><br>
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">회원가입</button>
+            </form>
+
+        </div> <!-- /container -->
+
+
+        <!-- Bootstrap core JavaScript
+================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+    </body>
+</html>
+
