@@ -1,3 +1,4 @@
+<!--0.0.6-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,36 +8,47 @@
         <link href="../css/styles.css" rel="stylesheet">
         <link href="../css/signup.css" rel="stylesheet">
     </head>
-    <body>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
         <div class="topNavbar_bg">
             <div class="topNavbar">
                 <img id="topNavbar_Logo" src="../img/firstpage_0003_logo.png">
-                <!--
-<h1>회원가입</h1>
-<hr>
-<form name="form_signup" action="../php/signup.php" method="post">
-아이디 <input type="text" name="id" placeholder="아이디">
-<input type="button" value="중복확인">
-<br>
-패스워드 <input type="text" name="id" placeholder="패스워드">
-<br>
-패스워드 확인 <input type="text" name="id" placeholder="패스워드 확인">
-<br>
-패스워드 확인 <input type="text" name="id" placeholder="패스워드 확인">
-<br>
-이메일 <input type="text" name="email" placeholder="이메일">@<input type="text">
-<br>
-휴대폰 <input type="number_format" name="phone" a
-placeholder="휴대폰번호">
-<br>
-<input type="button" value="모든 약관에 동의 및 회원가입 확인">
-
-</form>
-</div>
-
--->
-
             </div>
         </div>
+
+        <div class="signinbox">
+            <h1>회원가입</h1>
+            <form name="form_signup" action="../php/signin.php" method="post">
+                <table class = signuptable border="1">
+                    <tr>
+                        <td>아이디</td>
+                        <td><input class="textfield" type="text" name="id" autofocus></td>
+                        <td><input id="login_btn" type=submit value="중복확인"></td>
+                    </tr>
+                    <tr>
+                        <td>패스워드</td>
+                        <td><input class="textfield" type="text" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>패스워드 확인</td>
+                        <td><input class="textfield" type="text" name="passwordcheck"></td>
+                    </tr>
+                    <tr>
+                        <td>이메일</td>
+                        <td><input class="textfield" type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>휴대폰</td>
+                        <td><input class="textfield" type="text" name="phone"></td>
+                    </tr>
+                </table>
+                
+                
+        
+                <br>
+                <input id="guest_btn" type=button value="모든 이용약관에 동의 및 회원가입 확인">
+            </form>
+        </div>
+
     </body>
 </html>
