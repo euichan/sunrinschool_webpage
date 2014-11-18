@@ -1,21 +1,34 @@
-
+*{margin: 0; padding: 0;}
 .topNavbar_bg {
     position: fixed;
     width: 100%;
-    height: 250px;
-    margin-top: -40px;
+    height: 40%;
     background-color: rgb(68,68,68);
 }
 
 .topNavbar {
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: rgb(49,49,49);
 }
 
 #topNavbar_Logo {
     position: fixed;
-    margin: 10px 20px; 
-    height: 30px;
+    margin: 15px 20px; 
+    height: 40px;
+}
+
+
+
+
+
+body {
+    background: url(../img/firstpage_0007_background_polygon.png) repeat scroll;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    padding: 20px 12px 20px;
 }
