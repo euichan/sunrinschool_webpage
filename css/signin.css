@@ -1,4 +1,3 @@
-
 .loginbox {
     position: fixed;
     width: 530px;
@@ -44,7 +43,7 @@
 
 #guest_btn {
     position: relative;
-    width: 93.5%;
+    width: 94.5%;
     left: 15px;
     margin-top: 30px;
     -webkit-border-radius: 0;
@@ -55,7 +54,7 @@
     font-size: 30px;
     padding: 10px 10px;
     border: solid #aaa 2px;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #guest_btn:hover {
