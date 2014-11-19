@@ -11,20 +11,20 @@
     <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
 
 
-        <div class="signinbox">
-            <h1>회원가입</h1>
+        <div class="signupbox">
+            <h1>회원가입 </h1>
             <form name="form_signup" action="../php/signup.php" method="post">
                 <table class = signuptable border="1">
                     <tr>
-                        <td>이름(실명)</td>
-                        <td><input class="textfield" type="text" name="name" autofocus ></td>
-                        <td></td>
-                        <td rowspan="2"><input id="login_btn" type=button value="인증"></td>
+                        <td class="option">이름(실명) &nbsp;</td>
+                        <td colspan="3"><input class="textfield_2cols" type="text" name="name" autofocus ></td>
+                        <td rowspan="2"><input id="ckName_btn" type=button value="실명 인증"></td>
                     </tr>
+                    
                     <tr>
-                        <td>생일</td>
+                        <td class="option">생일 &nbsp;</td>
                         <td>
-                            <select class="birth" name="birth_year">
+                            <select class="select" name="birth_year">
                                 <option>2014</option>
                                 <option>2013</option>
                                 <option>2012</option>
@@ -61,7 +61,9 @@
                                 <option>1981</option>
                                 <option>1980</option>
                             </select>
-                            <select class="birth" name="birth_month">
+                        </td>
+                        <td>
+                            <select class="select" name="birth_month">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -75,7 +77,9 @@
                                 <option>11</option>
                                 <option>12</option>
                             </select>
-                            <select class="birth" name="birth_day">
+                        </td>
+                        <td>
+                            <select class="select" name="birth_day">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -109,33 +113,38 @@
                                 <option>31</option>
                             </select>
                         </td>
-                        <td>
-
-                        </td>
-                        <td>
-
-                        </td>
                     </tr>
                     <tr>
-                        <td>아이디</td>
-                        <td colspan="2"><input class="textfield" type="text" name="id"></td>
-                        <td><input id="login_btn" type=button value="중복확인"></td>
+                        <td class="option">아이디 &nbsp;</td>
+                        <td colspan="3"><input class="textfield_2cols" type="text" name="id"></td>
+                        <td><input id="ckID_btn" type=button value="중복확인"></td>
                     </tr>
                     <tr>
-                        <td>패스워드</td>
-                        <td colspan="3"><input class="textfield" type="password" name="password"></td>
+                        <td class="option">패스워드 &nbsp;</td>
+                        <td colspan="4"><input class="textfield_3cols" type="password" name="password"></td>
                     </tr>
                     <tr>
-                        <td>패스워드 확인</td>
-                        <td colspan="3"><input class="textfield" type="password" name="passwordcheck"></td>
+                        <td class="option">패스워드 확인 &nbsp;</td>
+                        <td colspan="4"><input class="textfield_3cols" type="password" name="passwordcheck"></td>
                     </tr>
                     <tr>
-                        <td>이메일</td>
-                        <td colspan="3"><input class="textfield" type=email name="email"></td>
+                        <td class="option">이메일 &nbsp;</td>
+                        <td colspan="4"><input class="textfield_3cols" type=email name="email"></td>
                     </tr>
                     <tr>
-                        <td>휴대폰</td>
+                        <td class="option">휴대폰 &nbsp;</td>
                         <td><input class="textfield" type="tel" name="phone"></td>
+                        <td><input class="textfield" type="tel" name="phone"></td>
+                        <td><input class="textfield" type="tel" name="phone"></td>
+                        <td>
+                        <select class="select" id="telecom" name="telecom">
+                        <option>선택</option>
+                        <option>SKT</option>
+                        <option>KT</option>
+                        <option>U+</option>
+                        <option>MVNO(알뜰폰)</option>
+                        </select>
+                        </td>
                     </tr>
                 </table>
 
