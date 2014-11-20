@@ -120,6 +120,7 @@ h3 {
 .signuptable {
     color: white;
     margin-left: 8%;
+    margin-right: 8%;
     border-color: transparent;
 }
 
@@ -144,6 +145,7 @@ h3 {
 
 .option {
     text-align: right;
+    width: 100px;
 }
 
 .textfield_3cols {
