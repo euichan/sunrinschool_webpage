@@ -30,7 +30,10 @@ body {
 h1 {
     font-size: 2em;
     color: white;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+>>>>>>> FETCH_HEAD
     padding: 20px 12px 20px;
     border-bottom: solid 2px white;
 }
