@@ -102,11 +102,11 @@ ObjUserID = document.getElementsByName("id")[0];
                         <td colspan="3"><input class="textfield_2cols" type="text" name="name" autofocus ></td>
                         <td rowspan="2"><input id="ckName_btn" type=button value="실명 인증"></td>
                     </tr>
+
                     <tr>
                         <td class="option">생일 &nbsp;</td>
                         <td>
                             <select class="select" name="birth_year">
-                                <option>년</option>
                                 <option>2014</option>
                                 <option>2013</option>
                                 <option>2012</option>
@@ -146,7 +146,6 @@ ObjUserID = document.getElementsByName("id")[0];
                         </td>
                         <td>
                             <select class="select" name="birth_month">
-                                <option>월</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -163,7 +162,6 @@ ObjUserID = document.getElementsByName("id")[0];
                         </td>
                         <td>
                             <select class="select" name="birth_day">
-                                <option>일</option>
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -217,14 +215,10 @@ ObjUserID = document.getElementsByName("id")[0];
                     </tr>
                     <tr>
                         <td class="option">휴대폰 &nbsp;</td>
-                        <td><input class="textfield" type="tel" name="phone"></td>
-                        <td><input class="textfield" type="tel" name="phone"></td>
-                        <td><input class="textfield" type="tel" name="phone"></td>
-                        
                         <td><input class="textfield" type="tel" name="phone[]"></td>
                         <td><input class="textfield" type="tel" name="phone[]"></td>
                         <td><input class="textfield" type="tel" name="phone[]"></td>
-                        
+
                         <td>
                         <select class="select" id="telecom" name="telecom">
                         <option>선택</option>
