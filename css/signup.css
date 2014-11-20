@@ -13,37 +13,30 @@
     box-shadow: 0px 5px 0px #111;
 }
 
-.textfield {
-    padding: 15px 15px;
-    margin: 5px;
-    margin-left: 15px;
-    width: 350px;
+.textfield_2cols {
+    padding: 5px;
+    width: 200px;
     font-size: 15px;
 }
 
-#login_btn {
-    position: absolute;
-    margin-top: -55px;
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
-    border-radius: 3px;
+#ckID_btn {
     color: #ffffff;
-    font-size: 20px;
-    background: #3498db;
-    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    background: #3976bf;
+    padding: 8px 25.5px;
     text-decoration: none;
     border: none;
     text-align: center;
 }
 
-#login_btn:hover {
+#ckID_btn:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
 }
 
-#guest_btn {
+#submit_btn {
     position: relative;
     width: 93.5%;
     left: 15px;
@@ -53,13 +46,13 @@
     border-radius: 0px;
     color: #aaa;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px 10px;
     border: solid #aaa 2px;
   text-decoration: none;
 }
 
-#guest_btn:hover {
+#submit_btn:hover {
     text-decoration: none;
     color: #fff;
     border: solid #fff 2px;
@@ -110,7 +103,7 @@ h3 {
     font-size: 15px;
 }
 
-.signinbox {
+.signupbox {
     position: fixed;
     width: 530px;
     height: auto;
@@ -120,10 +113,58 @@ h3 {
     border-radius: 10px;
     left: 50%;
     margin-left: -300px;
-    top: 28%;
+    top: 10%;
     box-shadow: 0px 5px 0px #111;
 }
 
 .signuptable {
-    text-align: center
+    color: white;
+    margin-left: 8%;
+    border-color: transparent;
+}
+
+
+
+#ckName_btn {
+    color: #ffffff;
+    font-size: 13px;
+    background: #3976bf;
+    padding: 26px 23.5px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
+#ckName_btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.option {
+    text-align: right;
+}
+
+.textfield_3cols {
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.textfield {
+    padding: 5px;
+    width: 50px;
+    font-size: 15px;
+}
+
+.select {
+    border: none;
+    border-radius: 0px;
+    width: 65px;
+    height: 33px;
+}
+
+#telecom {
+    width: 96px;
 }
