@@ -1,26 +1,13 @@
 
-.indexIcon {
-    display: inline-block;
-    margin: 40px;
-}
-
 .main_nav {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -420px;
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-h2 {
-    font-size: 20px;
-}
-
-.index_contentsbox {
+.indexIcon {
+    display: inline-block;
+    padding: 40px;
 }
