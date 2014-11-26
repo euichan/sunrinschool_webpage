@@ -1,0 +1,13 @@
+
+.main_nav {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -420px;
+    text-align: center;
+}
+
+.indexIcon {
+    display: inline-block;
+    padding: 40px;
+}
