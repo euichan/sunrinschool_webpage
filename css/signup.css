@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 .loginbox {
     position: fixed;
@@ -13,17 +14,33 @@
     box-shadow: 0px 5px 0px #111;
 }
 
+<<<<<<< Updated upstream
 .textfield_2cols {
     padding: 5px;
+=======
+.textfield {
+    padding: 5px;
+    margin-left: 15px;
+>>>>>>> Stashed changes
     width: 200px;
     font-size: 15px;
 }
 
+<<<<<<< Updated upstream
 #ckID_btn {
     color: #ffffff;
     font-size: 13px;
     background: #3976bf;
     padding: 8px 25.5px;
+=======
+#login_btn {
+    
+    color: #ffffff;
+    font-size: 13px;
+    background: #3976bf;
+    padding: 5px 15px;
+    margin-left: 15px;
+>>>>>>> Stashed changes
     text-decoration: none;
     border: none;
     text-align: center;
@@ -113,11 +130,16 @@ h3 {
     border-radius: 10px;
     left: 50%;
     margin-left: -300px;
+<<<<<<< Updated upstream
     top: 10%;
+=======
+    top: 20%;
+>>>>>>> Stashed changes
     box-shadow: 0px 5px 0px #111;
 }
 
 .signuptable {
+<<<<<<< Updated upstream
     color: white;
     margin-left: 8%;
     margin-right: 8%;
@@ -169,4 +191,23 @@ h3 {
 
 #telecom {
     width: 96px;
+=======
+    text-align: right;
+    color: white;
 }
+=======
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.signupform {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #252525;
+>>>>>>> Stashed changes
+}
+>>>>>>> Stashed changes

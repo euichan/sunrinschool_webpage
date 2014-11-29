@@ -1,0 +1,13 @@
+
+#chat {
+    height: 40px;
+    width: 150px;
+    
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+
+#chat:hover {
+    width: auto;
+    height: 440px;
+}

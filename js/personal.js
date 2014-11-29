@@ -58,9 +58,9 @@ $(function(){
 		var key = $.now();
 		var list = $('<li>Add "'+ key +'"</li>').attr("id", "list-"+key).hide();
 		var item = $('<div>\
-				<h3>'+key+'</h3>\
-				<p><img src="http://dummyimage.com/150x'+ height +'" alt="dummy" /></p>\
 				<p><a href="#">DELETE</a></p>\
+				<p><img src="../img/firstpage_0001_student.png" width="100px" alt="dummy" /></p>\
+				<h3>'+key+'</h3>\
 			</div>')
 			.attr("id", "grid-"+key)
 			.stop()

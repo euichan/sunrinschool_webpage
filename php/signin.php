@@ -14,15 +14,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 {
 	$myid=addslashes($_POST['id']);
 	$mypassword=addslashes($_POST['password']);
-	$sql="SELECT id FROM user_db WHERE id='$myid' and pw='$mypassword'";
-	
+	$sql="SELECT id FROM user_db WHERE id='$myid' and password='$mypassword'";
 	$result=mysql_query($sql);
 	$count=mysql_num_rows($result);
 	if($count == 1)
 	{
 		$_SESSION["login_user"]=$myid;
-       	echo "<script>alert(\"안녕하세요$myid님\");</script>";
-		header("Location: ../html/main.html");
+       	echo "<script>alert(\"안녕하세요".$myid."님\");location.href='../html/index.html';</script>";
 	}
 	else
 	{

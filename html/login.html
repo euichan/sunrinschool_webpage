@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+
+    <head>
+        <title>선린인터넷고등학교</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/login.js"></script>
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div id="container">
+                <img id="logo" src="img/Logo.png">
+                <img id="bg" src="img/BG.jpg">
+                <div class="contatiner">
+                    <div class="login_content">
+                        <p class="comment">
+                            <img src="img/Comment.png" alt="모두 다함께 스쿨라이브!" class="_loginPageMessageImg login_message" width="271">
+                        </p>
+                        <form action="#" method="post" class="loginForm">
+                            <ul>
+                                <li>
+                                    <span class="IconBox">
+                                        <img class="InputIcon"src="img/UserIcon.png">
+                                        <input class="ghost-btn" type="text" tabindex="1" placeholder="사용자 아이디 또는 이메일" onfocus="this.placeholder = ''" onblur="this.placeholder = '사용자 아이디 또는 이메일'" name="id">
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="IconBox">
+                                        <img class="InputIcon"src="img/PassIcon.png">
+                                        <input class="ghost-btn" type="password"  tabindex="2" placeholder="비밀번호"  onfocus="this.placeholder = ''" onblur="this.placeholder = '비밀번호'" name="password">
+                                    </span>
+                                </li>
+                                <li>
+                                    <input class="ghost-btn" type="submit" tabindex="3" value="로그인">
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="check"><span>자동 로그인
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a>선린에 처음오셨나요?</a></span>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
