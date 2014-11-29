@@ -1,0 +1,43 @@
+#filedrag
+{
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0;
+    margin: 1em 0;
+    color: #555;
+    border: 3px dashed #555;
+    border-radius: 7px;
+    cursor: default;
+    padding: 100% 0;
+}
+
+#filedrag.hover
+{
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888;
+}
+#uploadBox {
+    position: absolute;
+    width: 100%;
+    top: 130px;
+}
+
+
+
+.drivelogo {
+    position: fixed;
+    top: 65px;
+    left: 20px;
+}
+
+h5 {
+    position: fixed;
+    top: 77px;
+    left: 80px;
+    font-size: 1.3em;
+    color: #fff;
+    
+}

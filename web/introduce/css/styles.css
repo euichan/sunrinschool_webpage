@@ -1,0 +1,14 @@
+@import url("normalize.css");
+@import url("custom.css");
+.ir{display:block;border:0;
+    text-indent:-999em;overflow:hidden;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    text-align:left;direction:ltr;
+    *line-height:0}.ir br{display:none}.clearfix{*zoom:1}.clearfix:before{content:"";display:table}.clearfix:after{content:"";
+        display:table;
+        clear:both}option.prompt{display:none}@media print{*{*background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important}a{text-decoration:underline}a:visited{text-decoration:underline}pre,blockquote{border:0 solid #999;page-break-inside:avoid}thead{display:table-header-group}tr{page-break-inside:avoid}img{page-break-inside:avoid;max-width:100% !important}@page{margin:3cm 0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+
+*{
+ font-family: "맑은고딕";   
+}

@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+.topNavbar_bg {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(68,68,68);
+}
+
+.topNavbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(49,49,49);
+}
+
+#topNavbar_Logo {
+    position: fixed;
+    margin: 15px 30px; 
+    height: 30px;
+}
+
+
+
+
+
+body {
+    background: url(../img/firstpage_0007_background_polygon.png) repeat scroll;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+<<<<<<< HEAD
+    margin-bottom: 20px;
+=======
+>>>>>>> FETCH_HEAD
+    padding: 20px 12px 20px;
+    border-bottom: solid 2px white;
+}
