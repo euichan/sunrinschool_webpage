@@ -84,3 +84,8 @@
 	init();
 
 })();
+
+
+function hidemenu() {
+    document.getElementById("showMenu").opacity =0;
+}
